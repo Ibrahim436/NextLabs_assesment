@@ -9,3 +9,12 @@ regex : (?<=\"id":)(.*?)(?=\})|(?<=\"code":)(.*?)(?=\,)
 
 #### Problem (1) - part 2
 
+Here is the link to the repository of the chrome reviews-ratings mismatch identifier : https://github.com/Ibrahim436/review_rating_mismatch_identifier
+
+Trained a BERT sentiment classifier model for this application : https://colab.research.google.com/drive/1RtDjTsGCX9uanlgFmNv2ITjsXZQ-PKsT?usp=sharing
+
+#### Problem (1) - part 3
+
+Please refer the folder Ranking-problem in this repo : there .ipynb file as well as .html of the notebook which explains the solution.
+
+#### Problem (2) - part 1
