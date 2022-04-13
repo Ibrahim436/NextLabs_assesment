@@ -13,6 +13,9 @@ Here is the link to the repository of the chrome reviews-ratings mismatch identi
 
 Trained a BERT sentiment classifier model for this application : https://colab.research.google.com/drive/1RtDjTsGCX9uanlgFmNv2ITjsXZQ-PKsT?usp=sharing
 
+  ######## Deployment challenges
+  1) I tried deploying using Heroku. While deploying the model file (around 412 MB) was getting corrupted which was failing the code. Heroku does some sort of commpression which is causing the problem. It does not support Git LFS. I had to use git LFS to commit code with model (file size more than 100 MB).
+
 #### Problem (1) - part 3
 
 Please refer the folder Ranking-problem in this repo : there .ipynb  of the notebook which explains the solution.
