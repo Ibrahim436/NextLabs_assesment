@@ -15,7 +15,10 @@ Trained a BERT sentiment classifier model for this application : https://colab.r
 
 #### Problem (1) - part 3
 
-Please refer the folder Ranking-problem in this repo : there .ipynb file as well as .html of the notebook which explains the solution.
+Please refer the folder Ranking-problem in this repo : there .ipynb  of the notebook which explains the solution.
+
+1. Is there any co-relation between short description, long description and ranking? Does the placement of keyword (for example - using a keyword in the first 10 words - have any co-relation with the ranking)? -->More the number of keywords within first 15 words of discription lesser is the quantitative value of rank (which means high rank in reality). keyword in short description barely had a relationship with rank alone but it represented a correlation when they were combined with long discription for obvious reasons.
+2. Does APP ID (Also known as package name) play any role in ranking? There is no relationship between appid , rank and keyword . keyword present in app id does not give higher ranks. But I found the API IDs distributions which respresented the most popular or highly ranked apps and the least popular and ranked apps.
 
 #### Problem (2) - part 1
 
